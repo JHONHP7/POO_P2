@@ -26,6 +26,7 @@ public class ExercicioSobreMap {
             Integer valor = contagemPalavras.get(chave);
             System.out.println("Chave: " + chave + ", Valor: " + valor);
         }
+		System.out.println(contagemPalavras);
 	}
 
 }
