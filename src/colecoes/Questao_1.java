@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/*Faça um programa que leia uma frase e informe o número de ocorrências de cada 
+palavra da frase (Dica: Use Map para fazer essa contagem)*/
+
 public class Questao_1 {
 	public static void main(String agrs[]) {
 
@@ -24,6 +27,6 @@ public class Questao_1 {
 			System.out.println("Chave: " + chave + ", Valor: " + valor);
 		}
 		System.out.println(contagemPalavras);
-
+		scanner.close();
 	}
 }
